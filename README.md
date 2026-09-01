@@ -1,24 +1,24 @@
-# Superstore Sales & Profit Analysis
+# 📊 Superstore Sales & Profit Analysis
 
-## Project Overview
+## 📌 Project Overview
 
 This project analyzes Superstore sales and profit data using Python, Pandas, and Power BI.
 
 The goal is to identify sales and profit trends, category and regional performance, product and customer performance, state-level profitability, and shipping-day patterns.
 
-## Objective
+## 🎯 Objective
 
 To analyze Superstore sales data and identify profitable areas, loss-making areas, important trends, and business opportunities that can support better decision-making.
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- Google Colab
-- Power BI Desktop
-- CSV
+- 🐍 Python
+- 🐼 Pandas
+- ☁️ Google Colab
+- 📊 Power BI Desktop
+- 📄 CSV
 
-## Project Workflow
+## 🔄 Project Workflow
 
 Raw Superstore Data  
 ↓  
@@ -34,9 +34,21 @@ Two-Page Dashboard
 ↓  
 Business Insights & Recommendations
 
-## Dashboard
+## 📈 Dashboard
 
-### Page 1 — Executive Summary
+### 🖼️ Dashboard Preview
+
+#### 📊 Page 1 — Executive Summary
+
+![Dashboard Page 1](dashboard-page-1.png)
+
+#### 🔎 Page 2 — Product & Customer Analysis
+
+![Dashboard Page 2](dashboard-page-2.png)
+
+The final Power BI report contains two dashboard pages.
+
+### 📊 Page 1 — Executive Summary
 
 The first dashboard page provides an overview of:
 
@@ -53,7 +65,7 @@ The first dashboard page provides an overview of:
 - Bottom 5 Sub-Categories by Profit
 - Sales & Profit by Shipping Days
 
-### Page 2 — Product & Customer Analysis
+### 🔎 Page 2 — Product & Customer Analysis
 
 The second page focuses on:
 
@@ -64,7 +76,7 @@ The second page focuses on:
 - Top 10 States by Profit
 - Bottom 10 States by Profit
 
-## Key Findings
+## 💡 Key Findings
 
 - Sales and profit increased overall from 2014 to 2017.
 - 2017 recorded the strongest overall sales and profit performance.
@@ -76,7 +88,7 @@ The second page focuses on:
 - The Canon imageCLASS 2200 Advanced Copier was the highest-profit product in the analysis.
 - The shipping-day analysis showed that 2 shipping days had the highest performance in the dashboard.
 
-## Business Recommendations
+## 🚀 Business Recommendations
 
 - Investigate the reasons for losses in the Tables sub-category.
 - Review pricing, discount levels, product costs, and shipping costs for loss-making products.
@@ -86,10 +98,10 @@ The second page focuses on:
 - Analyze the reasons for the West region's strong performance.
 - Investigate the relationship between shipping duration, sales, and profitability.
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
-Project 2 - Superstore Sales & Profit Analysis
+Superstore Sales & Profit Analysis
 │
 ├── README.md
 │
@@ -109,3 +121,17 @@ Project 2 - Superstore Sales & Profit Analysis
 │
 └── 04_Python
     └── Project_2_Superstore_Analysis.ipynb
+
+## 👩‍💻 My Role
+
+I worked on the complete data analytics workflow for the Superstore dataset.
+
+I used Python and Pandas to inspect, clean, transform, and analyze the data. I created supporting analytical datasets for sub-category, product, and customer analysis.
+
+I then used Power BI to build a two-page sales and profit dashboard and identified key business insights and recommendations from the analysis.
+
+## 📝 Conclusion
+
+This project demonstrates an end-to-end data analytics workflow using Python and Power BI, from data preparation and analysis through dashboard development and business recommendations.
+
+The project highlights the ability to transform raw business data into meaningful insights and communicate those insights through an interactive Power BI dashboard.

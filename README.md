@@ -40,13 +40,15 @@ Business Insights & Recommendations
 
 #### 📊 Page 1 — Executive Summary
 
-![Dashboard Page 1](dashboard-page-1.png)
+![Dashboard Page 1](03_Dashboard/dashboard-page-1.png)
 
 #### 🔎 Page 2 — Product & Customer Analysis
 
-![Dashboard Page 2](dashboard-page-2.png)
+![Dashboard Page 2](03_Dashboard/dashboard-page-2.png)
 
-The final Power BI report contains two dashboard pages.
+### 📄 View the Power BI Report
+
+[📥 Download Power BI PDF](02_PowerBI/Superstore_Sales_Profit_Analysis.pdf)
 
 ### 📊 Page 1 — Executive Summary
 
@@ -86,7 +88,7 @@ The second page focuses on:
 - Tables was the lowest-performing sub-category by profit and generated a significant loss.
 - Product-level analysis identified both highly profitable and loss-making products.
 - The Canon imageCLASS 2200 Advanced Copier was the highest-profit product in the analysis.
-- The shipping-day analysis showed that 2 shipping days had the highest performance in the dashboard.
+- The shipping-day analysis showed that 2 shipping days recorded the highest sales and profit performance in the dashboard.
 
 ## 🚀 Business Recommendations
 
@@ -97,6 +99,28 @@ The second page focuses on:
 - Study the factors behind Technology's strong sales performance.
 - Analyze the reasons for the West region's strong performance.
 - Investigate the relationship between shipping duration, sales, and profitability.
+
+## 📂 Project Files
+
+### 🐍 Python Analysis
+
+[📓 View Python Analysis Notebook](04_Python/Superstore_Analysis.ipynb)
+
+### 📊 Power BI
+
+[📄 View Power BI PDF Report](02_PowerBI/Superstore_Sales_Profit_Analysis.pdf)
+
+### 📁 Data
+
+- [📄 Cleaned Superstore Dataset](01_Data/superstore_cleaned.csv)
+- [📄 Sub-Category Analysis Dataset](01_Data/dashboard_subcategory.csv)
+- [📄 Product Analysis Dataset](01_Data/dashboard_product.csv)
+- [📄 Customer Analysis Dataset](01_Data/dashboard_customer.csv)
+
+### 🖼️ Dashboard Screenshots
+
+- [📊 Dashboard Page 1](03_Dashboard/dashboard-page-1.png)
+- [🔎 Dashboard Page 2](03_Dashboard/dashboard-page-2.png)
 
 ## 📁 Project Structure
 
@@ -112,15 +136,15 @@ Superstore Sales & Profit Analysis
 │   └── dashboard_customer.csv
 │
 ├── 02_PowerBI
-│   ├── Superstore_Sales_Profit_Analysis.pbix
 │   └── Superstore_Sales_Profit_Analysis.pdf
 │
-├── 03_Documentation
-│   ├── Project_2_Summary.docx
-│   └── Project_2_Python_Code_Learning_Guide.docx
+├── 03_Dashboard
+│   ├── dashboard-page-1.png
+│   └── dashboard-page-2.png
 │
 └── 04_Python
-    └── Project_2_Superstore_Analysis.ipynb
+    └── Superstore_Analysis.ipynb
+```
 
 ## 👩‍💻 My Role
 
